@@ -1,0 +1,221 @@
+.suggestions {
+  height: 100%;
+  max-height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.suggestions-content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  background: var(--bg-secondary);
+  border-radius: 8px;
+  margin: 0 20px 20px 20px;
+  border: 1px solid var(--border-primary);
+  max-height: calc(600px - 80px);
+  min-height: 300px;
+}
+
+.suggestions-count {
+  background: var(--accent-blue);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* Suggestions List */
+.suggestions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.suggestion-item {
+  background: var(--bg-card);
+  border: 1px solid var(--border-primary);
+  border-radius: 8px;
+  padding: 16px;
+  transition: all 0.2s ease;
+}
+
+.suggestion-item:hover {
+  border-color: var(--border-secondary);
+  box-shadow: var(--shadow-card);
+}
+
+.suggestion-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.suggestion-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.suggestion-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.suggestion-line {
+  background: var(--bg-tertiary);
+  color: var(--text-secondary);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 500;
+  font-family: monospace;
+}
+
+.suggestion-type {
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.suggestion-type.warning {
+  background: rgba(255, 167, 38, 0.2);
+  color: #ffa726;
+  border: 1px solid rgba(255, 167, 38, 0.3);
+}
+
+.suggestion-type.error {
+  background: rgba(244, 67, 54, 0.2);
+  color: #f44336;
+  border: 1px solid rgba(244, 67, 54, 0.3);
+}
+
+.suggestion-type.info {
+  background: rgba(33, 150, 243, 0.2);
+  color: #2196f3;
+  border: 1px solid rgba(33, 150, 243, 0.3);
+}
+
+.suggestion-type.suggestion {
+  background: rgba(76, 175, 80, 0.2);
+  color: #4caf50;
+  border: 1px solid rgba(76, 175, 80, 0.3);
+}
+
+.suggestion-content {
+  margin-left: 24px;
+}
+
+.suggestion-message {
+  color: var(--text-primary);
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0 0 8px 0;
+}
+
+.suggestion-code {
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-primary);
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin-top: 8px;
+}
+
+.suggestion-code code {
+  color: var(--accent-orange);
+  font-family: 'Monaco', 'Consolas', monospace;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+/* Loading Skeleton */
+.loading-skeleton {
+  padding: 20px;
+}
+
+/* Custom Scrollbar */
+.suggestions-content::-webkit-scrollbar {
+  width: 12px;
+}
+
+.suggestions-content::-webkit-scrollbar-track {
+  background: var(--bg-tertiary);
+  border-radius: 6px;
+  margin: 4px;
+}
+
+.suggestions-content::-webkit-scrollbar-thumb {
+  background: var(--border-secondary);
+  border-radius: 6px;
+  border: 2px solid var(--bg-secondary);
+}
+
+.suggestions-content::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-blue);
+}
+
+/* Scroll fade effect */
+.suggestions-content {
+  position: relative;
+}
+
+.suggestions-content::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 12px;
+  height: 20px;
+  background: linear-gradient(transparent, var(--bg-secondary));
+  pointer-events: none;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .suggestions-content {
+    margin: 0 16px 16px 16px;
+    padding: 16px;
+  }
+  
+  .suggestion-item {
+    padding: 12px;
+  }
+  
+  .suggestion-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  .suggestion-content {
+    margin-left: 0;
+    margin-top: 8px;
+  }
+  
+  .suggestion-message {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .suggestions-list {
+    gap: 8px;
+  }
+  
+  .suggestion-item {
+    padding: 10px;
+  }
+  
+  .suggestion-meta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+} 

@@ -1,0 +1,146 @@
+.preview {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.preview-content {
+  flex: 1;
+  background: #1e1e1e;
+  border-radius: 8px;
+  padding: 20px;
+  overflow-y: auto;
+  font-family: 'Courier New', Monaco, monospace;
+  font-size: 14px;
+  line-height: 1.6;
+  border: 1px solid #333333;
+  min-height: 300px;
+}
+
+.preview-text {
+  color: #e0e0e0;
+}
+
+.preview-text h1,
+.preview-text h2,
+.preview-text h3 {
+  color: #ffffff;
+  margin: 16px 0 8px 0;
+  font-weight: 600;
+}
+
+.preview-text h2 {
+  font-size: 16px;
+  color: #4fc3f7;
+}
+
+.preview-text strong {
+  color: #81c784;
+  font-weight: 600;
+}
+
+.preview-text code {
+  background: #2d2d2d;
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: #ffab40;
+  font-family: 'Courier New', Monaco, monospace;
+}
+
+.preview-text em {
+  color: #888888;
+  font-style: italic;
+}
+
+/* Loading Preview */
+.loading-preview {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.skeleton-lines {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.skeleton-line {
+  height: 16px;
+  background: linear-gradient(90deg, #2d2d2d 25%, #383838 50%, #2d2d2d 75%);
+  background-size: 200% 100%;
+  animation: skeleton-loading 2s infinite;
+  border-radius: 4px;
+}
+
+.skeleton-line.skeleton-title {
+  width: 60%;
+  height: 20px;
+}
+
+.skeleton-line.skeleton-text {
+  width: 100%;
+}
+
+.skeleton-line.skeleton-text.short {
+  width: 45%;
+}
+
+.skeleton-line.skeleton-text.medium {
+  width: 75%;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+/* Language Badge */
+.language-badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: #4a90e2;
+  color: #ffffff;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* Custom Scrollbar */
+.preview-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.preview-content::-webkit-scrollbar-track {
+  background: #2d2d2d;
+  border-radius: 4px;
+}
+
+.preview-content::-webkit-scrollbar-thumb {
+  background: #555555;
+  border-radius: 4px;
+}
+
+.preview-content::-webkit-scrollbar-thumb:hover {
+  background: #666666;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .preview-content {
+    font-size: 13px;
+    padding: 16px;
+  }
+  
+  .language-badge {
+    font-size: 11px;
+    padding: 3px 6px;
+  }
+} 

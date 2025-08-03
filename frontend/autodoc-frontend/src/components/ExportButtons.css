@@ -1,0 +1,119 @@
+.export-buttons {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.export-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.export-label {
+  font-size: 16px;
+  color: #888888;
+  font-weight: 500;
+}
+
+.export-button-group {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.export-btn {
+  flex: 1;
+  min-width: 80px;
+  padding: 12px 16px;
+  border: 1px solid #555555;
+  border-radius: 8px;
+  background: #333333;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.export-btn:hover:not(.disabled) {
+  background: #404040;
+  border-color: #666666;
+  transform: translateY(-1px);
+}
+
+.export-btn:active:not(.disabled) {
+  transform: translateY(0);
+}
+
+.export-btn.disabled {
+  background: #2a2a2a;
+  color: #555555;
+  border-color: #333333;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/* Specific button colors */
+.export-btn.markdown:not(.disabled) {
+  border-color: #4caf50;
+  background: linear-gradient(135deg, #388e3c, #4caf50);
+}
+
+.export-btn.markdown:hover:not(.disabled) {
+  background: linear-gradient(135deg, #2e7d32, #388e3c);
+}
+
+.export-btn.html:not(.disabled) {
+  border-color: #ff9800;
+  background: linear-gradient(135deg, #f57c00, #ff9800);
+}
+
+.export-btn.html:hover:not(.disabled) {
+  background: linear-gradient(135deg, #ef6c00, #f57c00);
+}
+
+.export-btn.pdf:not(.disabled) {
+  border-color: #f44336;
+  background: linear-gradient(135deg, #d32f2f, #f44336);
+}
+
+.export-btn.pdf:hover:not(.disabled) {
+  background: linear-gradient(135deg, #c62828, #d32f2f);
+}
+
+/* Export hint */
+.export-hint {
+  font-size: 12px;
+  color: #666666;
+  text-align: center;
+  font-style: italic;
+  margin-top: 8px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .export-button-group {
+    flex-direction: column;
+  }
+  
+  .export-btn {
+    min-width: unset;
+    padding: 10px 14px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .export-button-group {
+    gap: 8px;
+  }
+  
+  .export-btn {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+} 

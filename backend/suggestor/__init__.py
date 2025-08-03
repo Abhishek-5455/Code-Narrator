@@ -1,0 +1,1 @@
+# Suggestor package for code analysis and refactoring suggestions 

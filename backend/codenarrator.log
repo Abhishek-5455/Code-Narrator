@@ -1,0 +1,106 @@
+2025-08-03 22:44:56,577 - main - INFO - CodeNarrator API starting up...
+2025-08-03 22:44:56,578 - main - INFO - Logging system initialized successfully
+2025-08-03 22:44:56,581 - main - INFO - CORS middleware configured for frontend communication
+2025-08-03 22:44:56,581 - cache_manager - INFO - Cache stats generated - Files: 0, Size: 0 bytes, Languages: []
+2025-08-03 22:44:56,585 - main - INFO - Cache system initialized - {'total_files': 0, 'max_files': 100, 'total_size_bytes': 0, 'expiration_hours': 24, 'languages': {}, 'file_types': {}}
+2025-08-03 22:45:14,814 - main - INFO - CodeNarrator API starting up...
+2025-08-03 22:45:14,816 - main - INFO - Logging system initialized successfully
+2025-08-03 22:45:14,817 - main - INFO - CORS middleware configured for frontend communication
+2025-08-03 22:45:14,818 - cache_manager - INFO - Cache stats generated - Files: 0, Size: 0 bytes, Languages: []
+2025-08-03 22:45:14,819 - main - INFO - Cache system initialized - {'total_files': 0, 'max_files': 100, 'total_size_bytes': 0, 'expiration_hours': 24, 'languages': {}, 'file_types': {}}
+2025-08-03 22:47:48,034 - main - INFO - CodeNarrator API starting up...
+2025-08-03 22:47:48,036 - main - INFO - Logging system initialized successfully
+2025-08-03 22:47:48,047 - main - INFO - CORS middleware configured for frontend communication
+2025-08-03 22:47:48,049 - cache_manager - INFO - Cache stats generated - Files: 0, Size: 0 bytes, Languages: []
+2025-08-03 22:47:48,051 - main - INFO - Cache system initialized - {'total_files': 0, 'max_files': 100, 'total_size_bytes': 0, 'expiration_hours': 24, 'languages': {}, 'file_types': {}}
+2025-08-03 23:15:46,032 - main - INFO - CodeNarrator API starting up...
+2025-08-03 23:15:46,033 - main - INFO - Logging system initialized successfully
+2025-08-03 23:15:46,034 - main - INFO - CORS middleware configured for frontend communication
+2025-08-03 23:15:46,034 - cache_manager - INFO - Cache stats generated - Files: 0, Size: 0 bytes, Languages: []
+2025-08-03 23:15:46,035 - main - INFO - Cache system initialized - {'total_files': 0, 'max_files': 100, 'total_size_bytes': 0, 'expiration_hours': 24, 'languages': {}, 'file_types': {}}
+2025-08-03 23:16:08,954 - main - INFO - Root endpoint accessed
+2025-08-03 23:19:48,966 - services.cache_service - INFO - Recent files requested - Limit: 20
+2025-08-03 23:19:48,967 - services.cache_service - INFO - Retrieved 0 recent files from cache
+2025-08-03 23:19:48,972 - services.cache_service - INFO - Recent files requested - Limit: 20
+2025-08-03 23:19:48,973 - services.cache_service - INFO - Retrieved 0 recent files from cache
+2025-08-03 23:19:58,155 - services.parsing_service - INFO - Parse code endpoint accessed - File: parsing_service.py, Size: 4950 bytes
+2025-08-03 23:19:58,158 - services.parsing_service - INFO - Processing Python file: parsing_service.py
+2025-08-03 23:19:58,160 - services.parsing_service - INFO - File content read successfully - Characters: 4950
+2025-08-03 23:19:58,167 - cache_manager - INFO - Storing file in cache - Filename: parsing_service.py, Type: uploaded, Size: 4950 chars
+2025-08-03 23:19:58,176 - cache_manager - INFO - File stored successfully - ID: parsing_service.py_6157f201_1754243398, Language: Python, Expires: 2025-08-04 23:19:58.176025
+2025-08-03 23:19:58,180 - services.parsing_service - INFO - File stored in cache with ID: parsing_service.py_6157f201_1754243398
+2025-08-03 23:19:58,186 - services.parsing_service - INFO - Detected Python file, using Python parser
+2025-08-03 23:19:58,203 - cache_manager - INFO - Storing file in cache - Filename: parsing_service_docs.md, Type: generated, Size: 843 chars
+2025-08-03 23:19:58,213 - cache_manager - INFO - File stored successfully - ID: parsing_service_docs.md_e7f6c336_1754243398, Language: Unknown, Expires: 2025-08-04 23:19:58.213551
+2025-08-03 23:19:58,222 - services.parsing_service - INFO - Documentation generated successfully - Generated file ID: parsing_service_docs.md_e7f6c336_1754243398, Processing time: 0.07s
+2025-08-03 23:19:58,256 - services.suggestion_service - INFO - Suggest endpoint accessed - File: parsing_service.py, Size: 4950 bytes
+2025-08-03 23:19:58,259 - services.suggestion_service - INFO - File content read for suggestions - Characters: 4950
+2025-08-03 23:19:58,262 - cache_manager - INFO - Storing file in cache - Filename: parsing_service.py, Type: uploaded, Size: 4950 chars
+2025-08-03 23:19:58,266 - cache_manager - INFO - File stored successfully - ID: parsing_service.py_6157f201_1754243398, Language: Python, Expires: 2025-08-04 23:19:58.265881
+2025-08-03 23:19:58,267 - services.suggestion_service - INFO - File stored in cache with ID: parsing_service.py_6157f201_1754243398
+2025-08-03 23:19:58,269 - services.suggestion_service - INFO - Generating Python refactoring suggestions
+2025-08-03 23:19:58,288 - services.suggestion_service - INFO - Suggestions generated successfully - Language: Python, Count: 6, Time: 0.03s
+2025-08-03 23:19:58,640 - services.cache_service - INFO - Recent files requested - Limit: 20
+2025-08-03 23:19:58,643 - services.cache_service - INFO - Retrieved 2 recent files from cache
+2025-08-03 23:20:11,595 - services.cache_service - INFO - Recent files requested - Limit: 20
+2025-08-03 23:20:11,598 - services.cache_service - INFO - Retrieved 2 recent files from cache
+2025-08-03 23:20:11,609 - services.cache_service - INFO - Recent files requested - Limit: 20
+2025-08-03 23:20:11,613 - services.cache_service - INFO - Retrieved 2 recent files from cache
+2025-08-03 23:20:13,537 - services.cache_service - INFO - File download requested - ID: parsing_service_docs.md_e7f6c336_1754243398
+2025-08-03 23:20:13,539 - cache_manager - INFO - File retrieved successfully - ID: parsing_service_docs.md_e7f6c336_1754243398, Filename: parsing_service_docs.md
+2025-08-03 23:20:13,541 - services.cache_service - INFO - File download starting - ID: parsing_service_docs.md_e7f6c336_1754243398, Filename: parsing_service_docs.md
+2025-08-03 23:20:22,666 - services.cache_service - INFO - Cached file requested - ID: parsing_service.py_6157f201_1754243398
+2025-08-03 23:20:22,666 - cache_manager - INFO - File retrieved successfully - ID: parsing_service.py_6157f201_1754243398, Filename: parsing_service.py
+2025-08-03 23:20:22,667 - services.cache_service - INFO - Cached file retrieved - ID: parsing_service.py_6157f201_1754243398, Filename: parsing_service.py, Language: Python
+2025-08-03 23:20:22,707 - services.cache_service - INFO - Recent files requested - Limit: 20
+2025-08-03 23:20:22,708 - services.cache_service - INFO - Retrieved 2 recent files from cache
+2025-08-03 23:20:27,017 - services.cache_service - INFO - Cached file requested - ID: parsing_service.py_6157f201_1754243398
+2025-08-03 23:20:27,017 - cache_manager - INFO - File retrieved successfully - ID: parsing_service.py_6157f201_1754243398, Filename: parsing_service.py
+2025-08-03 23:20:27,018 - services.cache_service - INFO - Cached file retrieved - ID: parsing_service.py_6157f201_1754243398, Filename: parsing_service.py, Language: Python
+2025-08-03 23:20:27,059 - services.cache_service - INFO - Recent files requested - Limit: 20
+2025-08-03 23:20:27,061 - services.cache_service - INFO - Retrieved 2 recent files from cache
+2025-08-03 23:22:10,876 - services.parsing_service - INFO - Parse code endpoint accessed - File: suggestion_service.py, Size: 3204 bytes
+2025-08-03 23:22:10,878 - services.parsing_service - INFO - Processing Python file: suggestion_service.py
+2025-08-03 23:22:10,879 - services.parsing_service - INFO - File content read successfully - Characters: 3204
+2025-08-03 23:22:10,880 - cache_manager - INFO - Storing file in cache - Filename: suggestion_service.py, Type: uploaded, Size: 3204 chars
+2025-08-03 23:22:10,880 - cache_manager - INFO - File stored successfully - ID: suggestion_service.py_02223088_1754243530, Language: Python, Expires: 2025-08-04 23:22:10.880905
+2025-08-03 23:22:10,881 - services.parsing_service - INFO - File stored in cache with ID: suggestion_service.py_02223088_1754243530
+2025-08-03 23:22:10,882 - services.parsing_service - INFO - Detected Python file, using Python parser
+2025-08-03 23:22:10,886 - cache_manager - INFO - Storing file in cache - Filename: suggestion_service_docs.md, Type: generated, Size: 707 chars
+2025-08-03 23:22:10,887 - cache_manager - INFO - File stored successfully - ID: suggestion_service_docs.md_5044e75a_1754243530, Language: Unknown, Expires: 2025-08-04 23:22:10.887233
+2025-08-03 23:22:10,889 - services.parsing_service - INFO - Documentation generated successfully - Generated file ID: suggestion_service_docs.md_5044e75a_1754243530, Processing time: 0.01s
+2025-08-03 23:22:10,910 - services.suggestion_service - INFO - Suggest endpoint accessed - File: suggestion_service.py, Size: 3204 bytes
+2025-08-03 23:22:10,911 - services.suggestion_service - INFO - File content read for suggestions - Characters: 3204
+2025-08-03 23:22:10,911 - cache_manager - INFO - Storing file in cache - Filename: suggestion_service.py, Type: uploaded, Size: 3204 chars
+2025-08-03 23:22:10,912 - cache_manager - INFO - File stored successfully - ID: suggestion_service.py_02223088_1754243530, Language: Python, Expires: 2025-08-04 23:22:10.912463
+2025-08-03 23:22:10,913 - services.suggestion_service - INFO - File stored in cache with ID: suggestion_service.py_02223088_1754243530
+2025-08-03 23:22:10,913 - services.suggestion_service - INFO - Generating Python refactoring suggestions
+2025-08-03 23:22:10,920 - services.suggestion_service - INFO - Suggestions generated successfully - Language: Python, Count: 3, Time: 0.01s
+2025-08-03 23:22:10,947 - services.cache_service - INFO - Recent files requested - Limit: 20
+2025-08-03 23:22:10,949 - services.cache_service - INFO - Retrieved 4 recent files from cache
+2025-08-03 23:23:36,631 - services.cache_service - INFO - Recent files requested - Limit: 20
+2025-08-03 23:23:36,632 - services.cache_service - INFO - Retrieved 4 recent files from cache
+2025-08-03 23:23:36,637 - services.cache_service - INFO - Recent files requested - Limit: 20
+2025-08-03 23:23:36,640 - services.cache_service - INFO - Retrieved 4 recent files from cache
+2025-08-03 23:23:38,708 - services.cache_service - INFO - Cached file requested - ID: parsing_service.py_6157f201_1754243398
+2025-08-03 23:23:38,709 - cache_manager - INFO - File retrieved successfully - ID: parsing_service.py_6157f201_1754243398, Filename: parsing_service.py
+2025-08-03 23:23:38,711 - services.cache_service - INFO - Cached file retrieved - ID: parsing_service.py_6157f201_1754243398, Filename: parsing_service.py, Language: Python
+2025-08-03 23:23:38,725 - services.parsing_service - INFO - Parse code endpoint accessed - File: parsing_service.py, Size: 4950 bytes
+2025-08-03 23:23:38,726 - services.parsing_service - INFO - Processing Python file: parsing_service.py
+2025-08-03 23:23:38,727 - services.parsing_service - INFO - File content read successfully - Characters: 4950
+2025-08-03 23:23:38,728 - cache_manager - INFO - Storing file in cache - Filename: parsing_service.py, Type: uploaded, Size: 4950 chars
+2025-08-03 23:23:38,728 - cache_manager - INFO - File stored successfully - ID: parsing_service.py_6157f201_1754243618, Language: Python, Expires: 2025-08-04 23:23:38.728734
+2025-08-03 23:23:38,731 - services.parsing_service - INFO - File stored in cache with ID: parsing_service.py_6157f201_1754243618
+2025-08-03 23:23:38,732 - services.parsing_service - INFO - Detected Python file, using Python parser
+2025-08-03 23:23:38,740 - cache_manager - INFO - Storing file in cache - Filename: parsing_service_docs.md, Type: generated, Size: 843 chars
+2025-08-03 23:23:38,742 - cache_manager - INFO - File stored successfully - ID: parsing_service_docs.md_e7f6c336_1754243618, Language: Unknown, Expires: 2025-08-04 23:23:38.742167
+2025-08-03 23:23:38,743 - services.parsing_service - INFO - Documentation generated successfully - Generated file ID: parsing_service_docs.md_e7f6c336_1754243618, Processing time: 0.02s
+2025-08-03 23:23:38,755 - services.suggestion_service - INFO - Suggest endpoint accessed - File: parsing_service.py, Size: 4950 bytes
+2025-08-03 23:23:38,756 - services.suggestion_service - INFO - File content read for suggestions - Characters: 4950
+2025-08-03 23:23:38,757 - cache_manager - INFO - Storing file in cache - Filename: parsing_service.py, Type: uploaded, Size: 4950 chars
+2025-08-03 23:23:38,760 - cache_manager - INFO - File stored successfully - ID: parsing_service.py_6157f201_1754243618, Language: Python, Expires: 2025-08-04 23:23:38.760157
+2025-08-03 23:23:38,762 - services.suggestion_service - INFO - File stored in cache with ID: parsing_service.py_6157f201_1754243618
+2025-08-03 23:23:38,763 - services.suggestion_service - INFO - Generating Python refactoring suggestions
+2025-08-03 23:23:38,774 - services.suggestion_service - INFO - Suggestions generated successfully - Language: Python, Count: 6, Time: 0.02s
+2025-08-03 23:23:38,800 - services.cache_service - INFO - Recent files requested - Limit: 20
+2025-08-03 23:23:38,801 - services.cache_service - INFO - Retrieved 6 recent files from cache
