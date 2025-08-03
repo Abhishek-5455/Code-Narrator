@@ -4,16 +4,24 @@
 
 AutoDoc empowers developers by reducing the manual effort required to maintain documentation, while also improving code readability, maintainability, and collaboration. Simply upload your code files and get instant, well-structured documentation with intelligent suggestions for improvements.
 
+
 ## 📸 Screenshots
 
-### Main Interface
-![AutoDoc Main Interface](./images/main-interface.png)
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%">
+        <img src="./images/autodoc_ui_dark_theme.png" alt="Dark Theme Main Interface" width="100%">
+        <p><strong>Dark Theme Main Interface</strong></p>
+      </td>
+      <td width="50%">
+        <img src="./images/autodoc_ui_light_theme.png" alt="Dark Theme Main Interface" width="100%">
+        <p><strong>Light Theme Main Interface</strong></p>
+      </td>
+    </tr>
+  </table>
+</div>
 
-### Documentation Generation
-![Documentation Generation](./images/documentation-view.png)
-
-### Suggestions Panel
-![Suggestions Panel](./images/suggestions-view.png)
 
 ## ✨ Features
 
@@ -179,16 +187,6 @@ We welcome contributions! Please follow these steps:
 - Large files (>10MB) may take longer to process
 - Complex nested structures might need manual review
 - Some edge cases in comment parsing
-
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- FastAPI for the excellent Python web framework
-- React team for the amazing frontend library
-- All contributors who help improve this project
 
 ## 📞 Support
 
